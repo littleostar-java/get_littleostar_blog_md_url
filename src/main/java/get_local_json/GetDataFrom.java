@@ -13,6 +13,8 @@ import static tools.Tools.do_write_json_to_file;
 
 public class GetDataFrom {
 
+    private static final String suffix = ".md";
+
     public static void main(String[] args) throws IOException {
 
         LinkedList<String> list = new LinkedList<String>();
@@ -48,11 +50,13 @@ public class GetDataFrom {
                     hashMap.put(fileName, new LinkedList<MdBean>()); // hashmap put
                     for (File subFile : subFiles) {
                         String subFileName = subFile.getName();
-                        String md_title = getReplaceEndMd(subFileName);
-                        String md_url = prefix_str + fileName + "/" + subFileName;
+                        if(subFileName.endsWith(suffix)){
+                            String md_title = getReplaceEndMd(subFileName);
+                            String md_url = prefix_str + fileName + "/" + subFileName;
 
-                        hashMap.get(fileName).add(new MdBean(md_title, md_url)); // hashmap get && add
+                            hashMap.get(fileName).add(new MdBean(md_title, md_url)); // hashmap get && add
 //                            System.out.println("    " + subFileName);
+                        }
                     }
                 }
 

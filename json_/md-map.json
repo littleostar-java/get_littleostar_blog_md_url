@@ -183,12 +183,20 @@
   ],
   "install_x": [
     {
+      "md_title": "install_apache_on_windows_10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_apache_on_windows_10.md"
+    },
+    {
       "md_title": "install_electron_forge_on_windows_10_[china]",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_electron_forge_on_windows_10_[china].md"
     },
     {
       "md_title": "install_nodejs_npm_and_set_mirror_on_windows_10",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_nodejs_npm_and_set_mirror_on_windows_10.md"
+    },
+    {
+      "md_title": "install_offline_meteor_on_windows_10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_offline_meteor_on_windows_10.md"
     }
   ]
 }
