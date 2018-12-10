@@ -61,6 +61,10 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_tool.md"
     },
     {
+      "md_title": "angular_update_to_angular_7_",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_update_to_angular_7_.md"
+    },
+    {
       "md_title": "angular_viewchild",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_viewchild.md"
     },
@@ -85,6 +89,12 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/github/about_github.md"
     }
   ],
+  "python": [
+    {
+      "md_title": "python_pip_upgrade",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/python/python_pip_upgrade.md"
+    }
+  ],
   "install": [
     {
       "md_title": "install_apache_on_win10",
@@ -93,6 +103,14 @@
     {
       "md_title": "install_electron_forge_on_win10_[china]",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_electron_forge_on_win10_[china].md"
+    },
+    {
+      "md_title": "install_maven_in_win10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_maven_in_win10.md"
+    },
+    {
+      "md_title": "install_mongodb_on_win10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_mongodb_on_win10.md"
     },
     {
       "md_title": "install_nodejs_npm_and_set_mirror_on_win10",
@@ -189,6 +207,10 @@
     {
       "md_title": "api_of_imageUrl",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/api_of_imageUrl.md"
+    },
+    {
+      "md_title": "cannot_download_binding.node",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/cannot_download_binding.node.md"
     },
     {
       "md_title": "compiler_web_component",
