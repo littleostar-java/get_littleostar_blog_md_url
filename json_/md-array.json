@@ -5,8 +5,9 @@
   "css",
   "deploy",
   "github",
-  "install_x",
+  "install",
   "others",
   "record",
-  "rxjs"
+  "rxjs",
+  "web"
 ]

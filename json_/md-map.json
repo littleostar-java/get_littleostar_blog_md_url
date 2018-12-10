@@ -33,6 +33,10 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_get_error_record.md"
     },
     {
+      "md_title": "angular_iframe_load_cross_website",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_iframe_load_cross_website.md"
+    },
+    {
       "md_title": "angular_lib",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_lib.md"
     },
@@ -69,6 +73,10 @@
     {
       "md_title": "css_flexible_box",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/css/css_flexible_box.md"
+    },
+    {
+      "md_title": "css_html_color_codes",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/css/css_html_color_codes.md"
     }
   ],
   "github": [
@@ -77,7 +85,47 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/github/about_github.md"
     }
   ],
+  "install": [
+    {
+      "md_title": "install_apache_on_win10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_apache_on_win10.md"
+    },
+    {
+      "md_title": "install_electron_forge_on_win10_[china]",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_electron_forge_on_win10_[china].md"
+    },
+    {
+      "md_title": "install_nodejs_npm_and_set_mirror_on_win10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_nodejs_npm_and_set_mirror_on_win10.md"
+    },
+    {
+      "md_title": "install_offline_meteor_on_win10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_offline_meteor_on_win10.md"
+    },
+    {
+      "md_title": "install_tomcat_and_set_path_on_win10",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_tomcat_and_set_path_on_win10.md"
+    }
+  ],
+  "web": [
+    {
+      "md_title": "web_api_",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web/web_api_.md"
+    },
+    {
+      "md_title": "web_error_record",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web/web_error_record.md"
+    },
+    {
+      "md_title": "web_ui_ux",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web/web_ui_ux.md"
+    }
+  ],
   "record": [
+    {
+      "md_title": "record_coding_tutorial",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/record/record_coding_tutorial.md"
+    },
     {
       "md_title": "record_mj",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/record/record_mj.md"
@@ -115,6 +163,10 @@
   ],
   "bootstrap": [
     {
+      "md_title": "bootstrap_100_or_full_height",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/bootstrap/bootstrap_100_or_full_height.md"
+    },
+    {
       "md_title": "bootstrap_grid",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/bootstrap/bootstrap_grid.md"
     }
@@ -139,10 +191,6 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/api_of_imageUrl.md"
     },
     {
-      "md_title": "coding_tutorial",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/coding_tutorial.md"
-    },
-    {
       "md_title": "compiler_web_component",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/compiler_web_component.md"
     },
@@ -157,18 +205,6 @@
     {
       "md_title": "java_use_blog",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/java_use_blog.md"
-    },
-    {
-      "md_title": "README",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/README.md"
-    },
-    {
-      "md_title": "web_api_",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/web_api_.md"
-    },
-    {
-      "md_title": "web_ui_ux",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/web_ui_ux.md"
     }
   ],
   "deploy": [
@@ -179,24 +215,6 @@
     {
       "md_title": "_deploy_angular_app_on_github_pages",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/deploy/_deploy_angular_app_on_github_pages.md"
-    }
-  ],
-  "install_x": [
-    {
-      "md_title": "install_apache_on_windows_10",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_apache_on_windows_10.md"
-    },
-    {
-      "md_title": "install_electron_forge_on_windows_10_[china]",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_electron_forge_on_windows_10_[china].md"
-    },
-    {
-      "md_title": "install_nodejs_npm_and_set_mirror_on_windows_10",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_nodejs_npm_and_set_mirror_on_windows_10.md"
-    },
-    {
-      "md_title": "install_offline_meteor_on_windows_10",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install_x/install_offline_meteor_on_windows_10.md"
     }
   ]
 }
