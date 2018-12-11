@@ -9,6 +9,10 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angualr_style.md"
     },
     {
+      "md_title": "angular_7_features",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_7_features.md"
+    },
+    {
       "md_title": "angular_add_css_to_component",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_add_css_to_component.md"
     },
@@ -19,6 +23,10 @@
     {
       "md_title": "angular_bootstrap4",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_bootstrap4.md"
+    },
+    {
+      "md_title": "angular_bootstrap4_code",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_bootstrap4_code.md"
     },
     {
       "md_title": "angular_ChangeDetectionStrategy",
@@ -53,6 +61,14 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_router.md"
     },
     {
+      "md_title": "angular_router_navigation_process",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_router_navigation_process.md"
+    },
+    {
+      "md_title": "angular_router_page_not_found",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_router_page_not_found.md"
+    },
+    {
       "md_title": "angular_rxjs",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_rxjs.md"
     },
@@ -71,6 +87,28 @@
     {
       "md_title": "angular_viewcontainerref",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_viewcontainerref.md"
+    }
+  ],
+  "web_html": [
+    {
+      "md_title": "web_api_",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web_html/web_api_.md"
+    },
+    {
+      "md_title": "web_error_record",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web_html/web_error_record.md"
+    },
+    {
+      "md_title": "web_redirect_web_page",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web_html/web_redirect_web_page.md"
+    },
+    {
+      "md_title": "web_redirect_web_page_code",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web_html/web_redirect_web_page_code.md"
+    },
+    {
+      "md_title": "web_ui_ux",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web_html/web_ui_ux.md"
     }
   ],
   "css": [
@@ -125,20 +163,6 @@
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_tomcat_and_set_path_on_win10.md"
     }
   ],
-  "web": [
-    {
-      "md_title": "web_api_",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web/web_api_.md"
-    },
-    {
-      "md_title": "web_error_record",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web/web_error_record.md"
-    },
-    {
-      "md_title": "web_ui_ux",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/web/web_ui_ux.md"
-    }
-  ],
   "record": [
     {
       "md_title": "record_coding_tutorial",
@@ -171,8 +195,12 @@
   ],
   "rxjs": [
     {
-      "md_title": "rxjs_coutdown",
-      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/rxjs/rxjs_coutdown.md"
+      "md_title": "rxjs_countdown",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/rxjs/rxjs_countdown.md"
+    },
+    {
+      "md_title": "rxjs_countdown_code",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/rxjs/rxjs_countdown_code.md"
     },
     {
       "md_title": "rxjs_list",
@@ -227,6 +255,10 @@
     {
       "md_title": "java_use_blog",
       "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/java_use_blog.md"
+    },
+    {
+      "md_title": "sharing_knowledge",
+      "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/others/sharing_knowledge.md"
     }
   ],
   "deploy": [
