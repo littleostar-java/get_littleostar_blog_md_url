@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Set;
 
-import static tools.Tools.do_write_json_to_file;
+import static tools.Tools.do_write_json_to_dir_file;
 
 public class GetDataFrom {
 
@@ -28,7 +28,7 @@ public class GetDataFrom {
         deal_list_map(list, hashMap, prefix_str, path + File.separator + "contents");
 
 //        testJson(hashMap);
-        do_write_json_to_file(list, hashMap);
+        do_write_json_to_dir_file(list, hashMap);
 
     }
 

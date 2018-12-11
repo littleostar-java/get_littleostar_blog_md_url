@@ -11,32 +11,50 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Set;
 
 public class Tools {
     private static Gson gson = new GsonBuilder().create();
 
-    public static void do_write_json_to_file(LinkedList<String> list, HashMap<String, LinkedList<MdBean>> hashMap) {
+    public static void do_write_json_to_dir_file(LinkedList<String> list, HashMap<String, LinkedList<MdBean>> hashMap) {
         String json_array = gson.toJson(list);
         String json_map = gson.toJson(hashMap, new TypeToken<HashMap<String, LinkedList<MdBean>>>() {
         }.getType());
 
-//        System.out.println(json_array);
-//        System.out.println(json_map);
-        write_text_to_file("md_array.json", json_array);
-        write_text_to_file("md_map.json", json_map);
+        String path_parent = System.getProperty("user.dir") + File.separator + "json_";
+        String sub_path = path_parent + File.separator + "md_array";
+
+        write_text_to_file(path_parent, null, "md_array.json", json_array);
+//        write_text_to_file(path_parent, null, "md_map.json", json_map);
+
+        Set<String> set = hashMap.keySet();
+        for (String key : set) {
+            LinkedList<MdBean> linkedList = hashMap.get(key);
+            write_text_to_file(path_parent, sub_path, key + ".json", gson.toJson(linkedList));
+        }
+
     }
 
-    private static void write_text_to_file(String write_to_fileName, String text) {
+    private static void write_text_to_file(String path_parent, String sub_path, String write_to_fileName, String text) {
         try {
-            String path_parent = System.getProperty("user.dir") + File.separator + "json_";
-            File file_parent = new File(path_parent);
+            File file_parent = null;
+            file_parent = new File(path_parent);
+            if (sub_path != null) {
+                file_parent = new File(sub_path);
+            }
             if (!file_parent.exists()) {
                 boolean mkdir = file_parent.mkdir();
+                if (!mkdir) {
+                    return;
+                }
             }
-//            String dir = System.getProperty("user.dir") + File.separator + "json_" + File.separator + write_to_fileName;
+
             File file = new File(file_parent, write_to_fileName);
             if (!file.exists()) {
                 boolean newFile = file.createNewFile();
+                if (!newFile) {
+                    return;
+                }
             }
             FileWriter fileWriter = new FileWriter(file);
             PrintWriter printWriter = new PrintWriter(fileWriter);
