@@ -1,0 +1,14 @@
+[
+  {
+    "md_title": "maven_mirror_settings",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/maven/maven_mirror_settings.md"
+  },
+  {
+    "md_title": "maven_repo_or_mirror",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/maven/maven_repo_or_mirror.md"
+  },
+  {
+    "md_title": "tell_maven_use_java8",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/maven/tell_maven_use_java8.md"
+  }
+]

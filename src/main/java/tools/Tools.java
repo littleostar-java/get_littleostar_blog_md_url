@@ -14,7 +14,7 @@ import java.util.LinkedList;
 import java.util.Set;
 
 public class Tools {
-    private static Gson gson = new GsonBuilder().create();
+    private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public static void do_write_json_to_dir_file(LinkedList<String> list, HashMap<String, LinkedList<MdBean>> hashMap) {
         String json_array = gson.toJson(list);

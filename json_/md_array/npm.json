@@ -1,1 +1,18 @@
-[{"md_title":"npm_get_list_of_globally_installed_packages","md_url":"https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/npm/npm_get_list_of_globally_installed_packages.md"},{"md_title":"npm_update_all_global_package","md_url":"https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/npm/npm_update_all_global_package.md"}]
+[
+  {
+    "md_title": "npm_cache_clean",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/npm/npm_cache_clean.md"
+  },
+  {
+    "md_title": "npm_get_list_of_globally_installed_packages",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/npm/npm_get_list_of_globally_installed_packages.md"
+  },
+  {
+    "md_title": "npm_uninstall_global_package",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/npm/npm_uninstall_global_package.md"
+  },
+  {
+    "md_title": "npm_update_all_global_package",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/npm/npm_update_all_global_package.md"
+  }
+]
