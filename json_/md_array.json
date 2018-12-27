@@ -19,5 +19,6 @@
   "record",
   "rxjs",
   "spring_boot",
-  "web_html"
+  "toolbox",
+  "web"
 ]

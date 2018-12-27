@@ -2,5 +2,9 @@
   {
     "md_title": "about_github",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/github/about_github.md"
+  },
+  {
+    "md_title": "restore_repo_to_previous_version",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/github/restore_repo_to_previous_version.md"
   }
 ]
