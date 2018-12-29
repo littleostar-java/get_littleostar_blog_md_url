@@ -1,6 +1,7 @@
 package get_local_json;
 
 import model.MdBean;
+import org.apache.commons.io.FileUtils;
 import tools.StaticUtilTool;
 
 import java.io.File;
@@ -8,6 +9,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import static tools.Tools.do_write_json_to_dir_file;
 
@@ -16,7 +19,31 @@ public class GetDataFrom {
     private static final String suffix = ".md";
 
     public static void main(String[] args) throws IOException {
+        singleThread();
+    }
 
+    private static void singleThread() {
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+
+        executorService.submit(() -> {
+            String path_parent = System.getProperty("user.dir") + File.separator + "json_";
+            try {
+                FileUtils.deleteDirectory(new File(path_parent));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+        executorService.submit(() -> {
+            try {
+                dealGetJsonWriteJson();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+        executorService.shutdown();
+    }
+
+    private static void dealGetJsonWriteJson() throws IOException {
         LinkedList<String> list = new LinkedList<String>();
         HashMap<String, LinkedList<MdBean>> hashMap = new HashMap<String, LinkedList<MdBean>>();
 
@@ -29,7 +56,6 @@ public class GetDataFrom {
 
 //        testJson(hashMap);
         do_write_json_to_dir_file(list, hashMap);
-
     }
 
     private static void deal_list_map(
@@ -50,7 +76,7 @@ public class GetDataFrom {
                     hashMap.put(fileName, new LinkedList<MdBean>()); // hashmap put
                     for (File subFile : subFiles) {
                         String subFileName = subFile.getName();
-                        if(subFileName.endsWith(suffix)){
+                        if (subFileName.endsWith(suffix)) {
                             String md_title = getReplaceEndMd(subFileName);
                             String md_url = prefix_str + fileName + "/" + subFileName;
 

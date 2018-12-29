@@ -1,5 +1,7 @@
 package tools;
 
+import org.apache.commons.io.FileUtils;
+
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
@@ -56,6 +58,37 @@ public class StaticUtilTool {
             for (String str : pathList) {
                 delete_file(str);
                 System.out.println("deleted:\n\t\t" + str);
+            }
+        }
+    }
+
+    public static final String dest_root_path_str = "D:" + File.separator + "backup_"; // 目标路径
+
+    public void do_copy_source_to_d_disk(String... root_path_str) throws IOException {
+
+//        LocalDateTime now = LocalDateTime.now();
+//        String time_format = "time-" + now.getMonthValue() + now.getDayOfMonth() + "-" + now.getHour() + "00";
+
+        File dest_root_file = new File(dest_root_path_str); //
+        if (!dest_root_file.exists()) {
+            dest_root_file.mkdir();
+        }
+
+        for (String root_path_sub_str : root_path_str) { // 源文件路径
+            File root_file = new File(root_path_sub_str); // 源文件
+
+            File sub_file = new File(root_file.getAbsolutePath()
+                    .replace("C:\\", dest_root_file.getAbsolutePath() + File.separator)
+            );
+
+            if (root_file.exists()) {
+                if (root_file.isDirectory()) {
+                    FileUtils.copyDirectory(root_file, sub_file);
+                } else {
+                    FileUtils.copyFile(root_file, sub_file);
+                }
+                System.out.println("copy finished ... \n\t" + root_file.getAbsolutePath()
+                        + "\n\t" + sub_file.getAbsolutePath());
             }
         }
     }
@@ -119,7 +152,7 @@ public class StaticUtilTool {
      * @param filenameFilter
      * @return
      */
-    public LinkedList<String> get_path_list_by_root(
+    private LinkedList<String> get_path_list_by_root(
             String root_path, LinkedList<String> list, FilenameFilter filenameFilter)
             throws IOException {
         return get_path_list_by_root(new File(root_path), list, filenameFilter);

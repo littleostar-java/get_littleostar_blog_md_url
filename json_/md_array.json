@@ -3,12 +3,14 @@
   "angular",
   "api_third_serve",
   "bootstrap",
+  "cdn",
   "css",
   "deploy",
   "github",
   "google_chrome",
   "install_guide",
   "javascript",
+  "js_lib",
   "maven",
   "nodejs",
   "npm",
@@ -19,6 +21,7 @@
   "record",
   "rxjs",
   "spring_boot",
+  "sql_database",
   "toolbox",
   "web"
 ]
