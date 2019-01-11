@@ -32,6 +32,10 @@
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_ChangeDetectionStrategy.md"
   },
   {
+    "md_title": "angular_cli",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_cli.md"
+  },
+  {
     "md_title": "angular_debug",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_debug.md"
   },
@@ -116,6 +120,10 @@
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_router_routerLink_navigation_code.md"
   },
   {
+    "md_title": "angular_route_strategy",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_route_strategy.md"
+  },
+  {
     "md_title": "angular_rxjs",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_rxjs.md"
   },
@@ -142,6 +150,14 @@
   {
     "md_title": "angular_update_to_angular_7_",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_update_to_angular_7_.md"
+  },
+  {
+    "md_title": "angular_v2_systemjs",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_v2_systemjs.md"
+  },
+  {
+    "md_title": "angular_v6_feature",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/angular/angular_v6_feature.md"
   },
   {
     "md_title": "angular_viewchild",

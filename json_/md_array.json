@@ -1,14 +1,15 @@
 [
-  "about_x",
+  "about",
   "angular",
   "api_third_serve",
+  "book_sourcecode",
   "bootstrap",
   "cdn",
   "css",
   "deploy",
   "github",
   "google_chrome",
-  "install_guide",
+  "install",
   "javascript",
   "js_lib",
   "maven",
@@ -20,8 +21,12 @@
   "reactive",
   "record",
   "rxjs",
-  "spring_boot",
+  "samsung_",
+  "springboot",
+  "springboot_angular",
   "sql_database",
   "toolbox",
-  "web"
+  "tool_use_",
+  "web",
+  "_server_"
 ]
