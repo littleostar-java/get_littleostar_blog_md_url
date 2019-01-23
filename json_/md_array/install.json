@@ -4,6 +4,10 @@
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_apache_on_win10.md"
   },
   {
+    "md_title": "install_eclipse_plugin_from_local",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_eclipse_plugin_from_local.md"
+  },
+  {
     "md_title": "install_electron_forge_on_win10_[china]",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_electron_forge_on_win10_[china].md"
   },
@@ -38,5 +42,9 @@
   {
     "md_title": "install_wampserver_on_win10",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_wampserver_on_win10.md"
+  },
+  {
+    "md_title": "install_windows_subsystem_for_linux_on_win10",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/install/install_windows_subsystem_for_linux_on_win10.md"
   }
 ]

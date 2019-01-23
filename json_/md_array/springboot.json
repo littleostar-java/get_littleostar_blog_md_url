@@ -1,7 +1,23 @@
 [
   {
+    "md_title": "howto_create_a_deployable_war_file",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/springboot/howto_create_a_deployable_war_file.md"
+  },
+  {
     "md_title": "springboot_demo",
     "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/springboot/springboot_demo.md"
+  },
+  {
+    "md_title": "springboot_developtool",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/springboot/springboot_developtool.md"
+  },
+  {
+    "md_title": "springboot_guide",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/springboot/springboot_guide.md"
+  },
+  {
+    "md_title": "springboot_serving_static_html",
+    "md_url": "https://raw.githubusercontent.com/littleostar-blog/littleostar-blog/master/contents/springboot/springboot_serving_static_html.md"
   },
   {
     "md_title": "use_intellij_create_a_springboot_project",
